@@ -32,7 +32,7 @@ class Main extends Database {
         return $stmt;
 
      }
-
+    
      public function mark_done($item_id, $done) {
 
         $sql = "UPDATE items SET done='$done' WHERE id= '$item_id'";
@@ -46,5 +46,3 @@ class Main extends Database {
 
 
 }
-
-// $main= new Main();
