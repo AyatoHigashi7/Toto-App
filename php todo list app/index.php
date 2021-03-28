@@ -3,12 +3,6 @@
     $main = new Main();
     $items = $main->show_todo();
 
-    if(isset($_POST['remove'])) {
-        // $remove = $main->delete($item['name']);
-        echo "works";
-    }
-
-
 ?>
 
 <!DOCTYPE html>
